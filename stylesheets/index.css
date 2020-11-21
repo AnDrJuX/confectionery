@@ -3,23 +3,32 @@
   padding: 0;
 }
 
-.block-1{
-  background-image: url('konditerskaya.jpg');
+.dark_block {
+  background: rgba(0,0,0,0.5);
+}
+
+.block-1 {
+  width: 100%;
+  height: 262px;
+  background: url('konditerskaya.jpg');
   background-size: cover;
-  height: 350px;
+}
+.content {
+  position: relative;
+  margin: 0 auto;
 }
 
 .text-block{
-  width: 375px;
+  width: auto;
   text-align: center;
   margin: 0 auto;
-  color: #fa7b05f3;
+  color: #fa7d07f3;
 }
 
 .intro-text-1{
   padding-top: 90px;
   padding-bottom: 14px;
-  font-size: 1.3em;
+  font-size: 1.1em;
   align-items: center;
 }
 
@@ -29,7 +38,7 @@
 
 .line{
   border: none;
-  background-color: #fa7b05f3;
+  background-color: red;
   height: 2px;
   width: 200px;
   margin: 0 auto;
@@ -42,8 +51,8 @@
 }
 
 .div-image {
-  width: 300px;
-  height: 200px;
+  width: 330px;
+  height: 220px;
   margin: 20px;
   margin-left: 20px;
   margin-right: 20px;
@@ -53,12 +62,12 @@
   margin: 20px auto;
   width: auto;
   text-align: center;
-  margin-left: 20px;
-  margin-right: : 20px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .image {
-  width: 97%;
+  width: 100%;
   height: 100%;
   border: 4px solid #fa7d07f3;
 }
@@ -81,4 +90,29 @@
 .line {
   margin-top: 15px;
   margin-bottom: 15px;
+}
+
+.obvodka {
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: red;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 3px;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 8px 20px;
+  text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.15);
+  font-weight: bold;
+}
+
+.button-green {
+  background: #8aba56;
+  color: #fff;
+}
+
+.button-green:hover {
+  background: #6a9a36;
+  transition: all ease .3s;
 }
