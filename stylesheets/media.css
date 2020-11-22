@@ -1,10 +1,10 @@
-@media (max-width: 414px) {
+@media (max-width: 365px) {
   .text {
     width: 95%;
   }
 
   .div-image {
-    margin: 30px;
+    margin: 25px;
     width: 90%;
   }
 
@@ -43,7 +43,7 @@
 
 .features {
   margin-top: 40px;
-  padding: 40px;
+  padding: 10px;
   background: #fa7b05f3;
 }
 
@@ -53,8 +53,8 @@
 
 .features-item {
   padding: 10px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 @media (max-width: 800px) {
